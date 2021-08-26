@@ -8,7 +8,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description: Under construction... Please check back later
+description: "Under construction... Please check back later"
 layout: list-grid
 show_author_byline: false
 show_post_date: false
