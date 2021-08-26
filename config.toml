@@ -1,4 +1,4 @@
-baseURL = "https://bradford-dykes.netlify.app/"
+baseURL = "https://dykesb.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Bradford Dykes"
@@ -85,30 +85,22 @@ enableEmoji = true
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/dykesb"
-  # [[params.social]]
-  #     icon      = "facebook-square" # icon name without the 'fa-'
-  #     icon_pack = "fab"
-  #     url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  # [[params.social]]
-  #     icon      = "instagram" # icon name without the 'fa-'
-  #     icon_pack = "fab"
-  #     url       = "https://www.instagram.com/explore/tags/apero/"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/BradfordDykes"
+  [[params.social]]
+     icon      = "linkedin-in" # icon name without the 'fa-'
+     icon_pack = "fab"
+     url       = "https://www.linkedin.com/in/bradford-dykes/"
   # [[params.social]]
-  #     icon      = "impactstory" # icon name without the 'fa-'
-  #     icon_pack = "ai"
-  #     url       = "https://impactstory.org/u/0000-0002-8082-1890"
-  # [[params.social]]
-  #     icon      = "orcid" # icon name without the 'fa-'
-  #     icon_pack = "ai"
-  #     url       = "http://orcid.org/0000-0002-8082-1890"
-  # [[params.social]]
-  #     icon      = "rss" # icon name without the 'fa-'
-  #     icon_pack = "fas"
-  #     url       = "/blog/index.xml"
+  #     icon      = "google-scholar" # icon name without the 'fa-'
+  #     icon_pack = "fa"
+  #     url       = "https://scholar.google.com/citations?user=koadcrQAAAAJ&hl=en"
+  [[params.social]]
+     icon      = "orcid" # icon name without the 'fa-'
+     icon_pack = "ai"
+     url       = "https://orcid.org/0000-0002-6700-0916"
 
 [taxonomies]
   category = "categories"

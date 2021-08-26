@@ -1,20 +1,16 @@
 ---
-action_label: Read More &rarr;
+action_label: About Me &rarr;
 action_link: /about
 action_type: text
-description: Sit down, relax, and get to know Hugo Apéro. Built on top of Blogophonic,
-  we wanted to create a polished Hugo theme with the right features for a true personal
-  website. We set out to create a theme that is a pleasure to learn, and one that
-  helps others get to know you better. It is more than a blog, with flexible custom
-  layouts that help you introduce yourself online.
+description: I teach applied statistical methods and statistical computing at Grand Valley State University. I am interested in working with educators to integrate data and statistical thinking into their courses. One of my current collaborations uses data visualizations in K-12 history and social studies lessons to build students' data literacy. I love coffee, Great Danes, and board games.
 image_left: true
 images:
-- img/revoir.jpg
+- img/bradford.jpg
 show_action_link: true
 show_social_links: true
-subtitle: A Hugo theme you'll want to hang out with
-text_align_left: false
-title: Hugo Apéro
+subtitle: Assistant Professor of Statistics @ GVSU
+text_align_left: true
+title: Bradford Dykes
 type: home
 ---
 
