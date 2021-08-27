@@ -31,15 +31,16 @@ This is not designed to be a map, but rather a starting place with the goal of v
 
 ## Drop-in Hours
 
-I will be holding drop-in hours throughout the Fall 2021.
+I will be holding virtual drop-in hours throughout the Fall 2021.
 A link and time for these sessions will be posted on the Blackboard course site.
 I have set aside these times for you, you will not be interrupting me, and feel free to talk about something “off topic,” or if you are not exactly sure what you want to touch base about.
 
 ## Class Time
 
-**Meetings**: Tuesday and Thursday, 2:30--3:45pm.
-
-**Location**: CHS 191 (Cook-DeVos Center for Health Sciences, Downtown GR)
+|            |              |                     |                            |
+|------------|--------------|---------------------|----------------------------|
+| Section 01 | 8:30--9:45am | Tuesday<br>Thursday | MAK A-1-121<br>MAK A-2-151 |
+| Section 02 | 6:00--7:15pm | Monday & Wednesday  | DEV 204A                   |
 
 ### Face Coverings
 
@@ -47,14 +48,13 @@ For GVSU’s most up-to-date face covering policy, consult https://www.gvsu.edu/
 
 ## Course Description
 
-A technique-oriented approach to data analysis using statistical techniques.
-Graphical and numerical summaries of data, multivariable thinking, confidence interval estimation, regression and correlation, testing hypotheses including chi-square tests and one-way analysis of variance.
-A statistical software package will provide computational assistance. 
-Fulfills Foundations - Mathematical Sciences.
+An introduction to statistical programming and graphics using the object-oriented statistical language R.
+Skills in writing R code to perform statistical analyses, graphics and simulations are developed.
+Emphasis will be on solving real problems with hands-on work including randomization statistics, time series, data mining and big data analysis.
 
 ### Prerequisite
 
-MTH 110 or equivalent
+(STA 215, STA 220, or STA 312) and (STA 216, CIS 162, or CIS 261) or admission to a graduate program in biostatistics, computer information systems, or health informatics and bioinformatics.
 
 ## Required Text
 
@@ -67,13 +67,11 @@ See the Blackboard course site for more information on this program.
 
 In this course, we will:
 
-- Identify appropriate visualizations and numerical summaries of one-variable, two-variable, and multivariable data.
-- Create data visualizations using statistical software.
-- Explain the importance of random sampling and random assignment in a data collection plan.
-- Describe how numerical summaries change from sample to sample.
-- Estimate the value of an unknown population numerical summary from sample data.
-- Apply hypothesis testing procedures to infer about relationships and group differences in the population.
-- Assess the impact that lurking variables may have on the apparent relationship between variables.
+- Import, manage, and clean data.
+- Create graphical displays and numerical summaries of data for exploratory analysis and presentations.
+- Write R programs for simulations from probability models and randomization-based experiments.
+- Use source documentation and other resources to troubleshoot and extend R programs.
+- Write clear, efficient, and well-documented R programs.
 
 ## Technology
 
@@ -100,17 +98,17 @@ If you notice any conflicts in times or dates, please let me know so that I can 
 
 ### R/R Studio
 
-Modern statistics and data science uses tools to analyze datasets that may contain millions of observations and thousands of variables.
-To do even the simplest calculations by hand (e.g., the sum) is impractical.
-Therefore, to learn statistics, you must learn the basics of a statistical software program.
-In this section of STA 215, we will use the statistical programming language R to automate calculations and create graphs.
-I will not ask you to do anything that we have not seen an example of and I will provide you with a document on Blackboard that includes instructions on how to use R for the tasks that we perform.
-You will also use R or interpret output from R on course activities.
-
 We will access R/RStudio through GVSU’s RStudio Server.
 Directions for how to log in to this server will be provided in an early activity.
 [R](https://cloud.r-project.org/) and [RStudio](https://www.rstudio.com/products/rstudio/download/) are freely available applications.
-While you can download them onto your personal machine, I encourage you to use the cloud-based environment that we will cover in class.
+You may choose to install these applications on your personal machine and I would encourage you to follow the guide by Jenny Bryan et al.: [Happy Git and GitHub for the useR](https://happygitwithr.com/).
+
+### GitHub
+
+We will be using [GitHub](https://github.com/) extensively throughout this course for creating documents, completing assignments, discussions, and collaboration.
+GVSU’s RStudio Server will also provide us with access to [Git](https://git-scm.com/) (a way to communicate between RStudio and GitHub).
+
+You may choose to install Git on your personal machine and I would again point you to the Happy Git guide from Bryan et al.
 
 ## The work of this course
 
@@ -130,7 +128,7 @@ These will include readings, videos, suggested practice exercises, workshops, an
 
 ### Major Project
 
-Throughout the semester, you will work on a single statistical project (on your own or in a group).
+Throughout the semester, you will work on a single statistical computing project (on your own or in a group).
 We will determine the parameters of this project together early in the semester.
 
 ### Course Grading
@@ -224,27 +222,6 @@ This does not give you license to copy something in its entirety and slap your n
 That is just stealing.
 Instead, consciously think about how you are influenced by your sources – knowledge and creativity depend on a sort of inheritance. Also think about the real responsibility you have to those sources.
 
-## General Education
-
-The mission of the Grand Valley State University General Education Program is to provide a broad-based liberal education experience that fosters lifelong learning and informed citizenship.
-The program prepares students for intelligent participation in public dialogues that consider the issues of humane living and responsible action in local, national, and global communities.
-
-STA 215 fulfills the Mathematical Sciences requirement in the Foundations portion of the General Education.
-Student Learning Outcomes associated with this portion of the General Education program are:
-
-1. Explain the principles and questions that define computer science, logic, mathematics, or statistics 
-2. Apply techniques for problem solving including recognition of key elements, the choice of suitable methods for solving a problem, and the appropriate application of these methods 
-3. Quantitative Literacy — competently and confidently work with numbers. Students will:
-    - Interpret information appearing in different forms (e.g., graphs, tables, equations, and text).
-    - Evaluate assumptions or biases associated with the chosen method.
-    - Solve quantitative problems using appropriate techniques.
-    - Draw valid conclusions based on data analysis and critically evaluate conclusions made by others. 
-4. Problem Solving – design and evaluate strategies to answer open-ended questions. Students will:
-    - Construct clear and insightful problem statements that prioritize relevant contextual factors.
-    - Identify multiple approaches for solving the problem within the given context.
-    - Design and fully explain solutions that demonstrate comprehension of the problem.
-    - Evaluate the feasibility of solutions considering the context and impact of potential solutions (e.g., historical, ethical, legal, practical).
-
 ## COVID-19
 
 As you are aware, we will be having class this semester while trying to navigate a global pandemic that seems to change every day.
@@ -252,7 +229,7 @@ Although these plans can be scary and demoralizing, I want you to know that GVSU
 I believe that if we observe reasonable precautions like the ones described here, then while the risk of Covid-19 is still present, there is no reason to be afraid.
 We will still learn and grow intellectually just as in “typical” times if we stay focused and work together.
 
-What follow are general guidelines for how we can work productively together during STA 215.
+What follow are general guidelines for how we can work productively together during STA 418/518.
 
 ### Taking care of yourself
 
@@ -260,7 +237,7 @@ Of the utmost importance is taking care of your own physical and mental health d
 Make sure you are getting sufficient rest, staying connected to friends and family, and giving yourself time and space to do things you enjoy outside of college.
 The Mayo Clinic [provides several tips](https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/self-care-tips-during-the-covid-19-pandemic) for maintaining good self-care in our situation.
 
-While we will not be coming to campus for STA 215, you are still implored to perform a self-evaluation each day and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home. If you have a class that meets on campus, you should be on campus only if you feel completely healthy.
+While we will not be coming to campus for STA 418/518, you are still implored to perform a self-evaluation each day and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home. If you have a class that meets on campus, you should be on campus only if you feel completely healthy.
 
 ### Contingency plans for the semester
 

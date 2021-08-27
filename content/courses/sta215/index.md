@@ -27,7 +27,7 @@ This is not designed to be a map, but rather a starting place with the goal of v
 
 ## Drop-in Hours
 
-I will be holding drop-in hours throughout the Fall 2021.
+I will be holding virtual drop-in hours throughout the Fall 2021.
 A link and time for these sessions will be posted on the Blackboard course site.
 I have set aside these times for you, you will not be interrupting me, and feel free to talk about something “off topic,” or if you are not exactly sure what you want to touch base about.
 
