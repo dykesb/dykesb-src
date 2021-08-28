@@ -58,10 +58,13 @@ Emphasis will be on solving real problems with hands-on work including randomiza
 
 ## Required Text
 
-*Introductory Applied Statistics: A Variable Approach* by Gabrosek and Stephenson
+Depending on what motivates your interest in statistical computing and how you approach your work for this class, you may want to read one or more of the following:
 
-This text is offered through GVSU Save.
-See the Blackboard course site for more information on this program.
+-	[R for Data Science](https://r4ds.had.co.nz/) (R4DS) by Grolemund & Wickham
+-	[Advanced R](https://adv-r.hadley.nz/) by Wickham
+-	[ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) by Wickham et al.
+-	[Many other free texts](https://www.rstudio.com/resources/books/) provided by RStudio
+
 
 ## Course Objectives
 
