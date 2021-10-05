@@ -61,6 +61,7 @@ Emphasis will be on solving real problems with hands-on work including randomiza
 Depending on what motivates your interest in statistical computing and how you approach your work for this class, you may want to read one or more of the following:
 
 -	[R for Data Science](https://r4ds.had.co.nz/) (R4DS) by Grolemund & Wickham
+  - [R4DS Exercise Solutions](https://jrnold.github.io/r4ds-exercise-solutions/) by Arnold
 -	[Advanced R](https://adv-r.hadley.nz/) by Wickham
 -	[ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) by Wickham et al.
 -	[Many other free texts](https://www.rstudio.com/resources/books/) provided by RStudio
