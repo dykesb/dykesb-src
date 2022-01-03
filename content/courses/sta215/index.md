@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2022-01-04"
+date: "2022-01-03"
 draft: false
 excerpt: Introductory Applied Statistics
 featured: true

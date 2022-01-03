@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2022-01-03"
+date: "2022-01-02"
 draft: false
 excerpt: Probability & Statistics
 featured: true

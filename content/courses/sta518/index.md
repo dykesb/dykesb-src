@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2022-01-02"
+date: "2022-01-01"
 draft: false
 excerpt: Statistical Computing & Graphics with R
 featured: true
