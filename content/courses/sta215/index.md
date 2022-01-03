@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2021-08-24"
+date: "2022-01-04"
 draft: false
 excerpt: Introductory Applied Statistics
 featured: true
@@ -23,19 +23,21 @@ subtitle: Introductory Applied Statistics
 ---
 
 Nothing in this syllabus will be set in stone or taken for granted.
-This is not designed to be a map, but rather a starting place with the goal of vigorously rewiting the syllabus as we go, discovering what we will learn together as we learn it, and questioning what we will do even as we being.
+This is not designed to be a map, but rather a starting place with the goal of transforming the syllabus as we go.
+We will discover and question what we do together, even as we begin.
 
 ## Drop-in Hours
 
-I will be holding virtual drop-in hours throughout the Fall 2021.
+I will be holding virtual drop-in hours throughout the semester.
 A link and time for these sessions will be posted on the Blackboard course site.
-I have set aside these times for you, you will not be interrupting me, and feel free to talk about something “off topic,” or if you are not exactly sure what you want to touch base about.
+These times for you; you will not be interrupting me. 
+Feel free to talk about something *off topic* or if you simply want to touch base about something.
 
 ## Class Time
 
-**Meetings**: Tuesday and Thursday, 2:30--3:45pm.
+**Meetings**: Monday and Wednesday, 3:00--4:15pm.
 
-**Location**: CHS 191 (Cook-DeVos Center for Health Sciences, Downtown GR)
+**Location**: MAK A-2-205 (M) and HRY 116 (W)
 
 ### Face Coverings
 
@@ -52,26 +54,12 @@ Fulfills Foundations - Mathematical Sciences.
 
 MTH 110 or equivalent
 
-## Required Text
+## Required Resources
 
 *Introductory Applied Statistics: A Variable Approach* by Gabrosek and Stephenson
 
 This text is offered through GVSU Save.
 See the Blackboard course site for more information on this program.
-
-## Course Objectives
-
-In this course, we will:
-
-- Identify appropriate visualizations and numerical summaries of one-variable, two-variable, and multivariable data.
-- Create data visualizations using statistical software.
-- Explain the importance of random sampling and random assignment in a data collection plan.
-- Describe how numerical summaries change from sample to sample.
-- Estimate the value of an unknown population numerical summary from sample data.
-- Apply hypothesis testing procedures to infer about relationships and group differences in the population.
-- Assess the impact that lurking variables may have on the apparent relationship between variables.
-
-## Technology
 
 To use the course tools, you will need to have access to:
 
@@ -85,28 +73,17 @@ If you have any issue with accessing the above for whatever reason, let me know 
 I may know of resources that can help you for your case.
 Additionally, we will use Blackboard and R via GVSU's RStudio Server.
 
-### Blackboard
+## Course Objectives
 
-All assignments, documents, and feedback will be posted on the [Blackboard](https://mybb.gvsu.edu/) course site.
-You will also use this for submitting assignments.
+In this course, we will:
 
-The calendar in Blackboard will be used for all important time-sensitive information.
-This calendar will be kept up to date to the best of my ability.
-If you notice any conflicts in times or dates, please let me know so that I can correct them.
-
-### R/R Studio
-
-Modern statistics and data science uses tools to analyze datasets that may contain millions of observations and thousands of variables.
-To do even the simplest calculations by hand (e.g., the sum) is impractical.
-Therefore, to learn statistics, you must learn the basics of a statistical software program.
-In this section of STA 215, we will use the statistical programming language R to automate calculations and create graphs.
-I will not ask you to do anything that we have not seen an example of and I will provide you with a document on Blackboard that includes instructions on how to use R for the tasks that we perform.
-You will also use R or interpret output from R on course activities.
-
-We will access R/RStudio through GVSU’s RStudio Server.
-Directions for how to log in to this server will be provided in an early activity.
-[R](https://cloud.r-project.org/) and [RStudio](https://www.rstudio.com/products/rstudio/download/) are freely available applications.
-While you can download them onto your personal machine, I encourage you to use the cloud-based environment that we will cover in class.
+- Identify appropriate visualizations and numerical summaries of one-variable, two-variable, and multivariable data.
+- Create data visualizations using statistical software.
+- Explain the importance of random sampling and random assignment in a data collection plan.
+- Describe how numerical summaries change from sample to sample.
+- Estimate the value of an unknown population numerical summary from sample data.
+- Apply hypothesis testing procedures to infer about relationships and group differences in the population.
+- Assess the impact that lurking variables may have on the apparent relationship between variables.
 
 ## The work of this course
 
@@ -137,9 +114,52 @@ The intention here is to help you focus on working in a more organic way, as opp
 I hope that this process will give you (and me) a partial liberation from letter grades, but if it ends up causing more anxiety than it alleviates, feel free to see me at any point to confer about your performance in the course to date.
 If you are worried about your grade in the class, your best strategy should be to attend class, take part in discussions, do the readings, and complete all activities.
 
-## Stats Tutoring Center
+## Technology
 
-GVSU’s Stats Tutoring Center is both in-person and online this semester, starting Wednesday, September 1!
+### Blackboard
+
+All assignments, documents, and feedback will be posted on the [Blackboard](https://mybb.gvsu.edu/) course site.
+You will also use this for submitting assignments.
+
+The calendar in Blackboard will be used for all important time-sensitive information.
+This calendar will be kept up to date to the best of my ability.
+If you notice any conflicts in times or dates, please let me know so that I can correct them.
+
+### R/R Studio
+
+Modern statistics and data science uses tools to analyze datasets that may contain millions of observations and thousands of variables.
+To do even the simplest calculations by hand (e.g., the sum) is impractical.
+Therefore, to learn statistics, you must learn the basics of a statistical software program.
+In this section of STA 215, we will use the statistical programming language R to automate calculations and create graphs.
+I will not ask you to do anything that we have not seen an example of and I will provide you with a document on Blackboard that includes instructions on how to use R for the tasks that we perform.
+You will also use R or interpret output from R on course activities.
+
+We will access R/RStudio through GVSU’s RStudio Server.
+Directions for how to log in to this server will be provided in an early activity.
+[R](https://cloud.r-project.org/) and [RStudio](https://www.rstudio.com/products/rstudio/download/) are freely available applications.
+While you can download them onto your personal machine, I encourage you to use the cloud-based environment that we will cover in class.
+
+### Microsoft Teams
+
+Microsoft Teams is communication platform that allows us to share documents, seek feedback, ask questions, and provide support.
+There are web-based apps, computer apps, and phone apps to seamlessly use this tool across multiple platforms.
+We will spend time during the first week of the semester practicing how to use this tool.
+You already have an account for this tool through your GVSU credentials.
+
+## Getting Help
+
+The best resource for getting help in this class will be to show up to our sessions and ask questions.
+However, this is not always when issues or questions arise.
+To assist in these situations, there are a number of additional ways to seek assistance.
+
+### Microsoft Teams
+
+For help with course tools, materials, or other items, ask questions in the appropriate channel on Teams.
+I and your peers will be your best resources throughout the semester for specific questions about this course.
+
+### Stats Tutoring Center
+
+GVSU’s Stats Tutoring Center is both in-person and online this semester, starting Wednesday, January 12!
 You can access the most up-to-date information on their website at https://www.gvsu.edu/tutoring/stats/.
 There you will find our current hours on both the Allendale (MAK A-2-101) and Pew (EC 608) campus, the hours of our virtual center as well as hours for help with R.
 They are hoping to have in-person hours on both campuses Monday–Thursday 10a-5p and Fridays 10a--2p in Allendale, but these hours may change.
@@ -152,14 +172,14 @@ To access virtual drop-in tutoring, you can use the link in our Blackboard cours
 Then you will need to click on the “Online Stats Tutoring Center” button, which will require a GVSU login.
 When you enter their Collaborate room, please **type your first and last name** so they can get you signed in and connected with a tutor. 
 
-## Tutoring Center
+### Tutoring Center
 
 GVSU’s general Tutoring Center is offering appointment tutoring in-person and virtually.
 You can sign up for 50-minute tutoring appointments for many Stats courses.
 Request a tutor at http://www.gvsu.edu/tc/ or schedule directly on [Navigate](https://www.gvsu.edu/navigate/).
 Questions about the Tutoring Center can be directed to tutoring@gvsu.edu.
 
-## Technology Help
+### Technology Help
 
 I am not able to provide support for most technological issues.
 If you encounter issues with technology, use one of the following resources:

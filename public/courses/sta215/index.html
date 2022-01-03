@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.87.0" />
+<title>STA 215 | Bradford Dykes</title>
+
+
+<meta property="twitter:site" content="@BradfordDykes">
+<meta property="twitter:creator" content="@BradfordDykes">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Introductory Applied Statistics">
+
+
+<meta property="og:site_name" content="Bradford Dykes">
+<meta property="og:title" content="STA 215 | Bradford Dykes">
+<meta property="og:description" content="Introductory Applied Statistics" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://dykesb.netlify.app/courses/sta215/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://dykesb.netlify.app/courses/sta215/featured.png" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://dykesb.netlify.app/courses/sta215/featured.png" >
+    
+    
+  <meta itemprop="name" content="STA 215">
+<meta itemprop="description" content="Nothing in this syllabus will be set in stone or taken for granted. This is not designed to be a map, but rather a starting place with the goal of vigorously rewiting the syllabus as we go, discovering what we will learn together as we learn it, and questioning what we will do even as we being.
+Drop-in Hours     I will be holding virtual drop-in hours throughout the Fall 2021."><meta itemprop="datePublished" content="2021-08-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-08-24T00:00:00+00:00" />
+<meta itemprop="wordCount" content="2907"><meta itemprop="image" content="https://dykesb.netlify.app/courses/sta215/featured.png">
+<meta itemprop="keywords" content="" />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/noun_bold_3871803.png" type="image/x-icon">
+  <link rel="icon" href="/img/noun_bold_3871803.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f234bce2405b18c4a9a9c73f1bbe5264150a19da1c5d0d7e9571fb6f926b3129.css" integrity="sha256-8jS84kBbGMSpqcc/G75SZBUKGdocXQ1&#43;lXH7b5JrMSk=" media="screen">
+  
+  
+  <script src="/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.1aeb217aa9ffef1af3f0a261e780112b3c79e8e1bb9de1d937e83c93afb98eb8.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://dykesb.netlify.app/" title="Home">
+      <img src="/img/noun_great%20dane%20head_2532289.png" class="dib db-l h2 w-auto" alt="Bradford Dykes">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/courses/" title="Courses">Courses</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">STA 215</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure">Introductory Applied Statistics</h4>
+        
+        
+
+      
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://mybb.gvsu.edu/" target="_blank" rel="noopener"><i class="fas fa-chalkboard fa-lg fa-fw mr2"></i>Blackboard</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://rstudio.gvsu.edu/" target="_blank" rel="noopener"><i class="fab fa-r-project fa-lg fa-fw mr2"></i>RStudio Server</a>
+
+
+      </div>
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>Nothing in this syllabus will be set in stone or taken for granted.
+This is not designed to be a map, but rather a starting place with the goal of vigorously rewiting the syllabus as we go, discovering what we will learn together as we learn it, and questioning what we will do even as we being.</p>
+
+
+
+
+<h2 id="drop-in-hours">Drop-in Hours
+  <a href="#drop-in-hours"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I will be holding virtual drop-in hours throughout the Fall 2021.
+A link and time for these sessions will be posted on the Blackboard course site.
+I have set aside these times for you, you will not be interrupting me, and feel free to talk about something “off topic,” or if you are not exactly sure what you want to touch base about.</p>
+
+
+
+
+<h2 id="class-time">Class Time
+  <a href="#class-time"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><strong>Meetings</strong>: Tuesday and Thursday, 2:30&ndash;3:45pm.</p>
+<p><strong>Location</strong>: CHS 191 (Cook-DeVos Center for Health Sciences, Downtown GR)</p>
+
+
+
+
+<h3 id="face-coverings">Face Coverings
+  <a href="#face-coverings"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>For GVSU’s most up-to-date face covering policy, consult 
+<a href="https://www.gvsu.edu/lakerstogether/face-covering-policy-27.htm" target="_blank" rel="noopener">https://www.gvsu.edu/lakerstogether/face-covering-policy-27.htm</a>.</p>
+
+
+
+
+<h2 id="course-description">Course Description
+  <a href="#course-description"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>A technique-oriented approach to data analysis using statistical techniques.
+Graphical and numerical summaries of data, multivariable thinking, confidence interval estimation, regression and correlation, testing hypotheses including chi-square tests and one-way analysis of variance.
+A statistical software package will provide computational assistance. 
+Fulfills Foundations - Mathematical Sciences.</p>
+
+
+
+
+<h3 id="prerequisite">Prerequisite
+  <a href="#prerequisite"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>MTH 110 or equivalent</p>
+
+
+
+
+<h2 id="required-text">Required Text
+  <a href="#required-text"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><em>Introductory Applied Statistics: A Variable Approach</em> by Gabrosek and Stephenson</p>
+<p>This text is offered through GVSU Save.
+See the Blackboard course site for more information on this program.</p>
+
+
+
+
+<h2 id="course-objectives">Course Objectives
+  <a href="#course-objectives"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>In this course, we will:</p>
+<ul>
+<li>Identify appropriate visualizations and numerical summaries of one-variable, two-variable, and multivariable data.</li>
+<li>Create data visualizations using statistical software.</li>
+<li>Explain the importance of random sampling and random assignment in a data collection plan.</li>
+<li>Describe how numerical summaries change from sample to sample.</li>
+<li>Estimate the value of an unknown population numerical summary from sample data.</li>
+<li>Apply hypothesis testing procedures to infer about relationships and group differences in the population.</li>
+<li>Assess the impact that lurking variables may have on the apparent relationship between variables.</li>
+</ul>
+
+
+
+
+<h2 id="technology">Technology
+  <a href="#technology"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>To use the course tools, you will need to have access to:</p>
+<ul>
+<li>A laptop or tablet device.</li>
+<li>A modern web browser. 
+<a href="https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&amp;hl=en" target="_blank" rel="noopener">Google Chrome</a> or 
+<a href="https://www.microsoft.com/en-us/edge?form=MA13DE&amp;OCID=MA13DE" target="_blank" rel="noopener">Microsoft Edge</a> are preferred, though 
+<a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener">Mozilla Firefox</a> should also work.</li>
+<li>Reliable access to high-speed internet.</li>
+<li>If we need to pivot our course delivery method throughout this semester, I also recommend that you have access to a webcam and wired headphones.
+This will help to increase active participation and engagement in remote class sessions.</li>
+</ul>
+<p>If you have any issue with accessing the above for whatever reason, let me know as soon as possible.
+I may know of resources that can help you for your case.
+Additionally, we will use Blackboard and R via GVSU&rsquo;s RStudio Server.</p>
+
+
+
+
+<h3 id="blackboard">Blackboard
+  <a href="#blackboard"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>All assignments, documents, and feedback will be posted on the 
+<a href="https://mybb.gvsu.edu/" target="_blank" rel="noopener">Blackboard</a> course site.
+You will also use this for submitting assignments.</p>
+<p>The calendar in Blackboard will be used for all important time-sensitive information.
+This calendar will be kept up to date to the best of my ability.
+If you notice any conflicts in times or dates, please let me know so that I can correct them.</p>
+
+
+
+
+<h3 id="rr-studio">R/R Studio
+  <a href="#rr-studio"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Modern statistics and data science uses tools to analyze datasets that may contain millions of observations and thousands of variables.
+To do even the simplest calculations by hand (e.g., the sum) is impractical.
+Therefore, to learn statistics, you must learn the basics of a statistical software program.
+In this section of STA 215, we will use the statistical programming language R to automate calculations and create graphs.
+I will not ask you to do anything that we have not seen an example of and I will provide you with a document on Blackboard that includes instructions on how to use R for the tasks that we perform.
+You will also use R or interpret output from R on course activities.</p>
+<p>We will access R/RStudio through GVSU’s RStudio Server.
+Directions for how to log in to this server will be provided in an early activity.
+
+<a href="https://cloud.r-project.org/" target="_blank" rel="noopener">R</a> and 
+<a href="https://www.rstudio.com/products/rstudio/download/" target="_blank" rel="noopener">RStudio</a> are freely available applications.
+While you can download them onto your personal machine, I encourage you to use the cloud-based environment that we will cover in class.</p>
+
+
+
+
+<h2 id="the-work-of-this-course">The work of this course
+  <a href="#the-work-of-this-course"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>This course will be as much about breaking stuff as it is about building stuff.</p>
+
+
+
+
+<h3 id="participation">Participation
+  <a href="#participation"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>This is a collaborative course and will be a cooperative learning experience, a true intellectual community.
+For us to work together as a community, we all must find ways to be present in the various places that our course lives (e.g., in person, online communication, the rest of the web).
+If you cannot finish your work for any reason, chat with me in advance.
+Note that on the first day of class, we will decide on a method for managing and participating in backchannel conversations (conversations that do not occur face-to-face).</p>
+
+
+
+
+<h3 id="activities">Activities
+  <a href="#activities"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>The Weekly Content area in our Blackboard course site will walk you through the various activities of the week.
+These will include readings, videos, suggested practice exercises, workshops, and self-reflections.</p>
+
+
+
+
+<h3 id="major-project">Major Project
+  <a href="#major-project"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Throughout the semester, you will work on a single statistical project (on your own or in a group).
+We will determine the parameters of this project together early in the semester.</p>
+
+
+
+
+<h3 id="course-grading">Course Grading
+  <a href="#course-grading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>While you will be receiving a grade at the end of the semester, I will not be putting grades on individual assignments, but rather questions and comments that truly engage with your work rather than simply evaluate it.
+Throughout the semester, you will also be responding to your own work and each other’s work in a similar fashion.
+The intention here is to help you focus on working in a more organic way, as opposed to working as you think you are expected to.
+I hope that this process will give you (and me) a partial liberation from letter grades, but if it ends up causing more anxiety than it alleviates, feel free to see me at any point to confer about your performance in the course to date.
+If you are worried about your grade in the class, your best strategy should be to attend class, take part in discussions, do the readings, and complete all activities.</p>
+
+
+
+
+<h2 id="stats-tutoring-center">Stats Tutoring Center
+  <a href="#stats-tutoring-center"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>GVSU’s Stats Tutoring Center is both in-person and online this semester, starting Wednesday, September 1!
+You can access the most up-to-date information on their website at 
+<a href="https://www.gvsu.edu/tutoring/stats/" target="_blank" rel="noopener">https://www.gvsu.edu/tutoring/stats/</a>.
+There you will find our current hours on both the Allendale (MAK A-2-101) and Pew (EC 608) campus, the hours of our virtual center as well as hours for help with R.
+They are hoping to have in-person hours on both campuses Monday–Thursday 10a-5p and Fridays 10a&ndash;2p in Allendale, but these hours may change.
+Their in-person centers will follow the same safety protocols as GVSU classrooms.
+The virtual Stats Center will be open Sunday-Thursday 5&ndash;9p, but they will add more hours if necessary.
+Bring questions to any center about technology, on methods and concepts, or on specific problems.
+All Stats Center tutoring is FREE, so stop by early and often.</p>
+<p>To access virtual drop-in tutoring, you can use the link in our Blackboard course site called Stats Tutoring Center or visit their website.
+Then you will need to click on the “Online Stats Tutoring Center” button, which will require a GVSU login.
+When you enter their Collaborate room, please <strong>type your first and last name</strong> so they can get you signed in and connected with a tutor.</p>
+
+
+
+
+<h2 id="tutoring-center">Tutoring Center
+  <a href="#tutoring-center"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>GVSU’s general Tutoring Center is offering appointment tutoring in-person and virtually.
+You can sign up for 50-minute tutoring appointments for many Stats courses.
+Request a tutor at 
+<a href="http://www.gvsu.edu/tc/" target="_blank" rel="noopener">http://www.gvsu.edu/tc/</a> or schedule directly on 
+<a href="https://www.gvsu.edu/navigate/" target="_blank" rel="noopener">Navigate</a>.
+Questions about the Tutoring Center can be directed to 
+<a href="mailto:tutoring@gvsu.edu">tutoring@gvsu.edu</a>.</p>
+
+
+
+
+<h2 id="technology-help">Technology Help
+  <a href="#technology-help"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I am not able to provide support for most technological issues.
+If you encounter issues with technology, use one of the following resources:</p>
+<ul>
+<li>For help with Blackboard: Email the GVSU Blackboard Help Desk (
+<a href="mailto:bbadmin@gvsu.edu">bbadmin@gvsu.edu</a>) or call (616) 331-8526. For hours and more information see 
+<a href="https://www.gvsu.edu/elearn/help" target="_blank" rel="noopener">https://www.gvsu.edu/elearn/help</a>.</li>
+<li>For help with the GVSU network, email, or printing: Email the GVSU IT Help Desk at 
+<a href="mailto:helpdesk@gvsu.edu">helpdesk@gvsu.edu</a> or call (616) 331-2101 or toll-free (855) 435-7466. For hours and more information see 
+<a href="https://www.gvsu.edu/it" target="_blank" rel="noopener">https://www.gvsu.edu/it</a>.</li>
+<li>For specific help with your computer or device: Contact the GVSU IT Help Desk (see previous bullet) or contact your equipment manufacturer of computer store.</li>
+<li>For help with course tools or applications: Ask a question on the discussion board, seek out the help documentation in the tool or application, or do a targeted Google search.</li>
+</ul>
+
+
+
+
+<h2 id="equitable-and-inclusive-learning-environment">Equitable and Inclusive Learning Environment
+  <a href="#equitable-and-inclusive-learning-environment"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I will strive to create an equitable and inclusive learning environment in our class. It is my goal that you feel able to share information about your experiences as a student. I will keep information that you share with me private to the best of my ability; however, there is some information that may need to be shared with the university, especially regarding sexual misconduct or information about a crime that may have occurred on GVSU’s campus. Below are additional resources available for support:</p>
+
+
+
+
+<h3 id="title-ix-sexual-misconduct-policy-and-gender--and-sexual-based-harassment-policy">Title IX, Sexual Misconduct Policy, and Gender- and Sexual-Based Harassment Policy
+  <a href="#title-ix-sexual-misconduct-policy-and-gender--and-sexual-based-harassment-policy"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Title IX makes it clear that violence and harassment based on sex and gender are Civil Rights offenses subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, etc. Title IX’s sex discrimination prohibition also protects students from discrimination based on gender identity or failure to conform to stereotypical notions of masculinity or femininity. If you or someone you know has been harassed, assaulted, or denied services on the basis of sex or gender, you can find the appropriate resources at 
+<a href="https://www.gvsu.edu/titleix" target="_blank" rel="noopener">https://www.gvsu.edu/titleix</a> or contact the University’s Title IX Coordinator, Theresa Rowland at (616) 331-9530 or 
+<a href="mailto:rowlanth@gvsu.edu">rowlanth@gvsu.edu</a>.</p>
+
+
+
+
+<h3 id="special-learning-needs">Special Learning Needs
+  <a href="#special-learning-needs"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>If you have special needs because of learning, physical, or other disabilities, it is your responsibility to contact Disability Support Resources (DSR) at (616) 331-2490 or 
+<a href="https://www.gvsu.edu/dsr" target="_blank" rel="noopener">https://www.gvsu.edu/dsr</a>.
+DSR will help you arrange accommodations.
+Then, set up an appointment with me about how I can help in making those accommodations and ensure that they are consistent with your arrangements with DSR.</p>
+
+
+
+
+<h3 id="basic-security-needs">Basic Security Needs
+  <a href="#basic-security-needs"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>As a student, you may experience a range of issues that can negatively impact your learning, such as anxiety, depression, interpersonal or sexual violence, difficulty eating or sleeping, loss/grief, and/or alcohol/drug problems.
+These mental health concerns or stressful events may lead to diminished academic performance and affect your ability to participate in day-to-day activities.
+To support you during such challenging times, GVSU provides several confidential resources to all enrolled students, including the University Counseling Center 
+<a href="https://www.gvsu.edu/counsel" target="_blank" rel="noopener">https://www.gvsu.edu/counsel</a> or (616) 331-3266 and the Student Ombuds, Takeelia Garrett 
+<a href="mailto:garrettt@gvsu.edu">garrettt@gvsu.edu</a>.</p>
+<p>If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, I encourage you to visit 
+<a href="https://www.gvsu.edu/replenish/" target="_blank" rel="noopener">Replenish</a>, a food resource for GVSU students.
+GVSU also provides Special Circumstances and Financial Hardship grants that can be used to assist in paying for many expenses.
+Contact the Office of Financial Aid &amp; Scholarships at (616) 331-3234 or visit Special Circumstance &amp; Financial Hardship Requests.</p>
+<p>If you are comfortable doing so, please speak with me about your circumstances so that I can advocate for you and connect you with other campus resources.</p>
+
+
+
+
+<h3 id="gender-expression-and-identity">Gender expression and identity
+  <a href="#gender-expression-and-identity"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>If your state issued identification does not match your preferred name, your name can be updated in some areas (such as Blackboard, mailroom, and your GVSU ID). At GVSU, this is called “myName” and you can request a myName by following these steps:</p>
+<ol>
+<li>Login to myBanner, select the Personal Information tab, then select My Profile.</li>
+<li>You will be directed to another authentication page where you will be prompted to enter your network credentials.</li>
+<li>On the Personal Details section, select Edit on the and enter your myName.</li>
+</ol>
+<p>When your myName has been received and reviewed, you will receive an email letting you know either that it has been approved or requesting further information. Once approved, allow up to two days for the myName to be updated across the campus system. More information about myName can be found on the Milton E. Ford LGBT Resource Center’s page.</p>
+
+
+
+
+<h2 id="academic-integrity">Academic Integrity
+  <a href="#academic-integrity"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The university’s academic integrity policy is described in the 
+<a href="https://www.gvsu.edu/policies/policy.htm?policyId=EFAB64E1-C25B-E1A3-CA2B08B0B821C774" target="_blank" rel="noopener">GVSU Student Code, Section 4</a>.
+Every student has the responsibility of reading and understanding these policies, especially the consequences for engaging in academically dishonest activities.</p>
+<p>Authorship is a hotly contested topic in academia.
+In some disciplines, creative influence, collaboration, and borrowing are usually acceptable (even encouraged) while others have more strict beliefs.
+In this class, I encourage you to borrow ideas (from me, from materials we interact with, from your classmates).
+But, even more, I encourage you to truly make them your own – by playing with, manipulating, applying, and otherwise turning them on their head.
+It is boring to rest on the creations of others.
+It is daring (and more fun) to invent something new yourself.
+This does not give you license to copy something in its entirety and slap your name on it.
+That is just stealing.
+Instead, consciously think about how you are influenced by your sources – knowledge and creativity depend on a sort of inheritance. Also think about the real responsibility you have to those sources.</p>
+
+
+
+
+<h2 id="general-education">General Education
+  <a href="#general-education"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The mission of the Grand Valley State University General Education Program is to provide a broad-based liberal education experience that fosters lifelong learning and informed citizenship.
+The program prepares students for intelligent participation in public dialogues that consider the issues of humane living and responsible action in local, national, and global communities.</p>
+<p>STA 215 fulfills the Mathematical Sciences requirement in the Foundations portion of the General Education.
+Student Learning Outcomes associated with this portion of the General Education program are:</p>
+<ol>
+<li>Explain the principles and questions that define computer science, logic, mathematics, or statistics</li>
+<li>Apply techniques for problem solving including recognition of key elements, the choice of suitable methods for solving a problem, and the appropriate application of these methods</li>
+<li>Quantitative Literacy — competently and confidently work with numbers. Students will:
+<ul>
+<li>Interpret information appearing in different forms (e.g., graphs, tables, equations, and text).</li>
+<li>Evaluate assumptions or biases associated with the chosen method.</li>
+<li>Solve quantitative problems using appropriate techniques.</li>
+<li>Draw valid conclusions based on data analysis and critically evaluate conclusions made by others.</li>
+</ul>
+</li>
+<li>Problem Solving – design and evaluate strategies to answer open-ended questions. Students will:
+<ul>
+<li>Construct clear and insightful problem statements that prioritize relevant contextual factors.</li>
+<li>Identify multiple approaches for solving the problem within the given context.</li>
+<li>Design and fully explain solutions that demonstrate comprehension of the problem.</li>
+<li>Evaluate the feasibility of solutions considering the context and impact of potential solutions (e.g., historical, ethical, legal, practical).</li>
+</ul>
+</li>
+</ol>
+
+
+
+
+<h2 id="covid-19">COVID-19
+  <a href="#covid-19"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>As you are aware, we will be having class this semester while trying to navigate a global pandemic that seems to change every day.
+Although these plans can be scary and demoralizing, I want you to know that GVSU is doing everything in its power to keep people safe from Covid-19.
+I believe that if we observe reasonable precautions like the ones described here, then while the risk of Covid-19 is still present, there is no reason to be afraid.
+We will still learn and grow intellectually just as in “typical” times if we stay focused and work together.</p>
+<p>What follow are general guidelines for how we can work productively together during STA 215.</p>
+
+
+
+
+<h3 id="taking-care-of-yourself">Taking care of yourself
+  <a href="#taking-care-of-yourself"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Of the utmost importance is taking care of your own physical and mental health during these difficult times.
+Make sure you are getting sufficient rest, staying connected to friends and family, and giving yourself time and space to do things you enjoy outside of college.
+The Mayo Clinic 
+<a href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/self-care-tips-during-the-covid-19-pandemic" target="_blank" rel="noopener">provides several tips</a> for maintaining good self-care in our situation.</p>
+<p>While we will not be coming to campus for STA 215, you are still implored to perform a self-evaluation each day and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home. If you have a class that meets on campus, you should be on campus only if you feel completely healthy.</p>
+
+
+
+
+<h3 id="contingency-plans-for-the-semester">Contingency plans for the semester
+  <a href="#contingency-plans-for-the-semester"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>We will begin the semester in traditional face-to-face format, but several things could happen during the semester that might alter this setup.
+Here are the initial plans for the most likely of those things.</p>
+<ul>
+<li>If I cannot be on campus due to self-quarantine, but not because of illness:
+For example, if my partner becomes sick or if my daily self-assessment directs me to stay at home.
+In this case, we will switch to synchronous online meetings and an asynchronous option might be introduced.</li>
+<li>If I cannot be on campus due to having a Covid-19 infection:
+The entire course will be moved to an asynchronous online format until I am well enough to resume my responsibilities.
+A substitute instructor may be appointed to provide feedback.</li>
+</ul>
+<p>In either of these two cases, you can expect a slowdown in the feedback process and substantial changes to the course calendar or syllabus.
+Please monitor your course announcements daily to ensure you have correct information.
+Note that these plans may be changed or overridden by university-wide directives as the semester unfolds.
+Again, the course announcements will be where I post any information.</p>
+
+
+
+
+<h2 id="gvsu-policies">GVSU Policies
+  <a href="#gvsu-policies"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>This course is subject to the GVSU policies listed at 
+<a href="https://www.gvsu.edu/coursepolicies" target="_blank" rel="noopener">https://www.gvsu.edu/coursepolicies</a>.</p>
+
+
+
+
+<h2 id="attributions">Attributions
+  <a href="#attributions"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Portions of this syllabus have been adapted from the syllabi of Drs. Robert Talbert, John Gabrosek, Neal Rogness (all from GVSU), and Jesse Stommel (from CU Boulder).</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">August 24, 2021</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">14 minute read, 2907 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="https://dykesb.netlify.app/categories/courses">courses</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://dykesb.netlify.app/courses/sta312/">STA 215 &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022 Bradford Dykes, Grand Rapids, MI
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/dykesb" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/BradfordDykes" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/bradford-dykes/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0002-6700-0916" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>

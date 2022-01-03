@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>courses on Bradford Dykes</title>
+    <link>https://dykesb.netlify.app/categories/courses/</link>
+    <description>Recent content in courses on Bradford Dykes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dykesb.netlify.app/categories/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>STA 215</title>
+      <link>https://dykesb.netlify.app/courses/sta215/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dykesb.netlify.app/courses/sta215/</guid>
+      <description>Nothing in this syllabus will be set in stone or taken for granted. This is not designed to be a map, but rather a starting place with the goal of vigorously rewiting the syllabus as we go, discovering what we will learn together as we learn it, and questioning what we will do even as we being.
+Drop-in Hours     I will be holding virtual drop-in hours throughout the Fall 2021.</description>
+    </item>
+    
+    <item>
+      <title>STA 215</title>
+      <link>https://dykesb.netlify.app/courses/sta312/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dykesb.netlify.app/courses/sta312/</guid>
+      <description>Nothing in this syllabus will be set in stone or taken for granted. This is not designed to be a map, but rather a starting place with the goal of vigorously rewiting the syllabus as we go, discovering what we will learn together as we learn it, and questioning what we will do even as we being.
+Drop-in Hours     I will be holding virtual drop-in hours throughout the Fall 2021.</description>
+    </item>
+    
+    <item>
+      <title>STA 418/518</title>
+      <link>https://dykesb.netlify.app/courses/sta518/</link>
+      <pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dykesb.netlify.app/courses/sta518/</guid>
+      <description>Nothing in this syllabus will be set in stone or taken for granted. This is not designed to be a map, but rather a starting place with the goal of vigorously rewiting the syllabus as we go, discovering what we will learn together as we learn it, and questioning what we will do even as we being.
+Drop-in Hours     I will be holding virtual drop-in hours throughout the Fall 2021.</description>
+    </item>
+    
+  </channel>
+</rss>

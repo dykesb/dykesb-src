@@ -2,9 +2,9 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2022-01-02"
+date: "2022-01-03"
 draft: false
-excerpt: Statistical Computing & Graphics with R
+excerpt: Probability & Statistics
 featured: true
 layout: single
 links:
@@ -16,14 +16,10 @@ links:
   icon_pack: fab
   name: RStudio Server
   url: https://rstudio.gvsu.edu/
-- icon: github
-  icon_pack: fab
-  name: GitHub
-  url: https://github.com/
 location: Grand Rapids, MI
 show_post_time: false
-title: STA 418/518
-subtitle: Statistical Computing & Graphics with R
+title: STA 312
+subtitle: Probability & Statistics
 ---
 
 Nothing in this syllabus will be set in stone or taken for granted.
@@ -39,9 +35,9 @@ Feel free to talk about something *off topic* or if you simply want to touch bas
 
 ## Class Time
 
-**Meetings**: Monday and Wednesday; 6:00--7:20pm.
+**Meetings**: Monday, Wednesday, and Friday; 2:30--3:45pm.
 
-**Location**: DEV 210A
+**Location**: MAK A-1-121 (M) and MAK A-2-103 (WF)
 
 ### Face Coverings
 
@@ -49,23 +45,17 @@ For GVSU’s most up-to-date face covering policy, consult https://www.gvsu.edu/
 
 ## Course Description
 
-An introduction to statistical programming and graphics using the object-oriented statistical language R.
-Skills in writing R code to perform statistical analyses, graphics and simulations are developed.
-Emphasis will be on solving real problems with hands-on work including randomization statistics, time series, data mining and big data analysis.
+Introduction to the basic concepts of probability and statistics using calculus; discrete and continuous probability distributions, sampling, estimation, confidence intervals, tests of hypotheses, regression and correlation, applications, and problem solving.
 
 ### Prerequisite
 
-(STA 215, STA 220, or STA 312) and (STA 216, CIS 162, or CIS 261) or admission to a graduate program in biostatistics, computer information systems, or health informatics and bioinformatics.
+MTH 201 (Calc I) or equivalent
 
 ## Required Resources
 
-Depending on what motivates your interest in statistical computing and how you approach your work for this class, you may want to read one or more of the following:
+[*Probability, Statistics, and Data: A Fresh Approach Using R*](https://mathstat.slu.edu/~speegle/_book/preface.html) by Speegle and Clair
 
--	[R for Data Science](https://r4ds.had.co.nz/) (R4DS) by Grolemund & Wickham
-  - [R4DS Exercise Solutions](https://jrnold.github.io/r4ds-exercise-solutions/) by Arnold
--	[Advanced R](https://adv-r.hadley.nz/) by Wickham
--	[ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) by Wickham et al.
--	[Many other free texts](https://www.rstudio.com/resources/books/) provided by RStudio
+This text is freely available online.
 
 To use the course tools, you will need to have access to:
 
@@ -83,11 +73,12 @@ Additionally, we will use Blackboard and R via GVSU's RStudio Server.
 
 In this course, we will:
 
-- Import, manage, and clean data.
-- Create graphical displays and numerical summaries of data for exploratory analysis and presentations.
-- Write R programs for simulations from probability models and randomization-based experiments.
-- Use source documentation and other resources to troubleshoot and extend R programs.
-- Write clear, efficient, and well-documented R programs.
+-	Create and interpret numerical and graphical summaries
+-	Understand and use fundamental probability concepts
+-	Calculate and interpret expected values and variances
+-	Apply calculus concepts to solve probability theory problems
+-	Use sampling distribution concepts in statistical inference
+-	Use samples to make inferences about corresponding populations
 
 ## The work of this course
 
@@ -107,7 +98,7 @@ These will include readings, videos, suggested practice exercises, workshops, an
 
 ### Major Project
 
-Throughout the semester, you will work on a single statistical computing project (on your own or in a group).
+Throughout the semester, you will work on a single statistical project (on your own or in a group).
 We will determine the parameters of this project together early in the semester.
 
 ### Course Grading
@@ -117,6 +108,7 @@ Throughout the semester, you will also be responding to your own work and each o
 The intention here is to help you focus on working in a more organic way, as opposed to working as you think you are expected to.
 I hope that this process will give you (and me) a partial liberation from letter grades, but if it ends up causing more anxiety than it alleviates, feel free to see me at any point to confer about your performance in the course to date.
 If you are worried about your grade in the class, your best strategy should be to attend class, take part in discussions, do the readings, and complete all activities.
+
 ## Technology
 
 ### Blackboard
@@ -130,17 +122,17 @@ If you notice any conflicts in times or dates, please let me know so that I can 
 
 ### R/R Studio
 
+Modern statistics and data science uses tools to analyze datasets that may contain millions of observations and thousands of variables.
+To do even the simplest calculations by hand (e.g., the sum) is impractical.
+Therefore, to learn statistics, you must learn the basics of a statistical software program.
+In this section of STA 215, we will use the statistical programming language R to automate calculations and create graphs.
+I will not ask you to do anything that we have not seen an example of and I will provide you with a document on Blackboard that includes instructions on how to use R for the tasks that we perform.
+You will also use R or interpret output from R on course activities.
+
 We will access R/RStudio through GVSU’s RStudio Server.
 Directions for how to log in to this server will be provided in an early activity.
 [R](https://cloud.r-project.org/) and [RStudio](https://www.rstudio.com/products/rstudio/download/) are freely available applications.
-You may choose to install these applications on your personal machine and I would encourage you to follow the guide by Jenny Bryan et al.: [Happy Git and GitHub for the useR](https://happygitwithr.com/).
-
-### GitHub
-
-We will be using [GitHub](https://github.com/) extensively throughout this course for creating documents, completing assignments, discussions, and collaboration.
-GVSU’s RStudio Server will also provide us with access to [Git](https://git-scm.com/) (a way to communicate between RStudio and GitHub).
-
-You may choose to install Git on your personal machine and I would again point you to the Happy Git guide from Bryan et al.
+While you can download them onto your personal machine, I encourage you to use the cloud-based environment that we will cover in class.
 
 ### Microsoft Teams
 
@@ -162,7 +154,7 @@ I and your peers will be your best resources throughout the semester for specifi
 
 ### Stats Tutoring Center
 
-GVSU’s Stats Tutoring Center is both in-person and online this semester, starting Wednesday, September 1!
+GVSU’s Stats Tutoring Center is both in-person and online this semester, starting Wednesday, January 12!
 You can access the most up-to-date information on their website at https://www.gvsu.edu/tutoring/stats/.
 There you will find our current hours on both the Allendale (MAK A-2-101) and Pew (EC 608) campus, the hours of our virtual center as well as hours for help with R.
 They are hoping to have in-person hours on both campuses Monday–Thursday 10a-5p and Fridays 10a--2p in Allendale, but these hours may change.
@@ -250,7 +242,7 @@ Although these plans can be scary and demoralizing, I want you to know that GVSU
 I believe that if we observe reasonable precautions like the ones described here, then while the risk of Covid-19 is still present, there is no reason to be afraid.
 We will still learn and grow intellectually just as in “typical” times if we stay focused and work together.
 
-What follow are general guidelines for how we can work productively together during STA 418/518.
+What follow are general guidelines for how we can work productively together during STA 215.
 
 ### Taking care of yourself
 
@@ -258,7 +250,7 @@ Of the utmost importance is taking care of your own physical and mental health d
 Make sure you are getting sufficient rest, staying connected to friends and family, and giving yourself time and space to do things you enjoy outside of college.
 The Mayo Clinic [provides several tips](https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/self-care-tips-during-the-covid-19-pandemic) for maintaining good self-care in our situation.
 
-While we will not be coming to campus for STA 418/518, you are still implored to perform a self-evaluation each day and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home. If you have a class that meets on campus, you should be on campus only if you feel completely healthy.
+While we will not be coming to campus for STA 215, you are still implored to perform a self-evaluation each day and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home. If you have a class that meets on campus, you should be on campus only if you feel completely healthy.
 
 ### Contingency plans for the semester
 
@@ -283,4 +275,4 @@ This course is subject to the GVSU policies listed at https://www.gvsu.edu/cours
 
 ## Attributions
 
-Portions of this syllabus have been adapted from the syllabi of Drs. Robert Talbert, John Gabrosek, Neal Rogness (all from GVSU), and Jesse Stommel (from CU Boulder).
+Portions of this syllabus have been adapted from the syllabi of Drs. Robert Talbert, John Gabrosek, Neal Rogness (GVSU), and Jesse Stommel (CU--Boulder).
