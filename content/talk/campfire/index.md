@@ -1,10 +1,10 @@
 ---
 title: "A campfire"
 subtitle: "Testing"
-excerpt: "Here is a talk I gave on making awesome personal websites using Hugo, blogdown, GitHub, and Netlify."
+excerpt: "This is from the hugo-apero template and has not been personalized by Bradford yet..."
 date: 2021-01-12
 date_end: "2021-01-13"
-featured: true
+featured: false
 show_post_time: false
 event: "rstudio::global(2021)"
 event_url: https://global.rstudio.com
@@ -26,4 +26,4 @@ links:
   url: https://github.com/apreshill/bakeoff
 ---
 
-I'm really excited to give this talk! Stay tuned for video and slides.
+
