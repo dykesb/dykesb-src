@@ -53,9 +53,15 @@ MTH 201 (Calc I) or equivalent
 
 ## Required Resources
 
-[*Probability, Statistics, and Data: A Fresh Approach Using R*](https://mathstat.slu.edu/~speegle/_book/preface.html) by Speegle and Clair
+*OpenIntro Statistics* (4th Ed) by Diez, Çetinkaya-Rundel, and Barr
 
-This text is freely available online.
+OpenIntro provides multiple types of statistics textbooks, freely available online!
+Print black-and-white copies are available on Amazon for about $20.
+To obtain the electronic version that we will reference in STA 312:
+
+1. Go to https://leanpub.com/os.
+2. You can skip the optional contribution by setting the "YOU PAY" value to $0. Note that you will be asked for an email address so that a verification code can be sent to you.
+3. Download the PDF of *OpenIntro Statistics* from you Library on Leanpub. Note that the "Download Extras" folder contains a tablet-friendly version of the text.
 
 To use the course tools, you will need to have access to:
 
