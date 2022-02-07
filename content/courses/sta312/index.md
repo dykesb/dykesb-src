@@ -37,7 +37,7 @@ Feel free to talk about something *off topic* or if you simply want to touch bas
 
 **Meetings**: Monday, Wednesday, and Friday; 11:00--11:50am.
 
-**Location**: MAK A-1-121 (M) and MAK A-2-103 (WF)
+**Location**: MAK A-1-121 (MWF)
 
 ### Face Coverings
 
