@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2022-01-01"
+date: "2022-05-01"
 draft: false
 excerpt: Statistical Computing & Graphics with R
 featured: true
@@ -14,7 +14,7 @@ links:
   url: https://mybb.gvsu.edu/
 - icon: r-project
   icon_pack: fab
-  name: RStudio Server
+  name: RStudio Workbench
   url: https://rstudio.gvsu.edu/
 - icon: github
   icon_pack: fab
@@ -26,26 +26,27 @@ title: STA 418/518
 subtitle: Statistical Computing & Graphics with R
 ---
 
-Nothing in this syllabus will be set in stone or taken for granted.
-This is not designed to be a map, but rather a starting place with the goal of transforming the syllabus as we go.
-We will discover and question what we do together, even as we begin.
+Nothing in this syllabus is set in stone.
+This is not designed to be a map or a contract, but rather a starting place with the goal of transforming the syllabus (and our learning) as we go.
+Throughout this semester, we will discover and question what we do, together.
 
 ## Drop-in Hours
 
 I will be holding virtual drop-in hours throughout the semester.
 A link and time for these sessions will be posted on the Blackboard course site.
-These times for you; you will not be interrupting me. 
-Feel free to talk about something *off topic* or if you simply want to touch base about something.
+These times are for you; you will not be interrupting me. 
+You are encouraged to talk about something *off topic* or if you simply want to touch base about something course related.
 
 ## Class Time
 
-**Meetings**: Monday and Wednesday; 6:00--7:20pm.
+**Meetings**: Monday and Wednesday; 6:00--7:50pm.
 
-**Location**: DEV 210A
+**Location**: Online; See Blackboard for meeting space information
 
 ### Face Coverings
 
 For GVSU’s most up-to-date face covering policy, consult https://www.gvsu.edu/lakerstogether/face-covering-policy-27.htm.
+Note that I do not see this policy as being too important for our class sessions since we will be meeting online this semester.
 
 ## Course Description
 
@@ -59,29 +60,35 @@ Emphasis will be on solving real problems with hands-on work including randomiza
 
 ## Required Resources
 
+The primary text that I will assign readings from is,
+
+-	[R for Data Science](https://r4ds.had.co.nz/) (R4DS) by Grolemund & Wickham. See [R4DS Exercise Solutions](https://jrnold.github.io/r4ds-exercise-solutions/) by Arnold for solutions to end of chapter exercises if you choose to complete these.
+
 Depending on what motivates your interest in statistical computing and how you approach your work for this class, you may want to read one or more of the following:
 
--	[R for Data Science](https://r4ds.had.co.nz/) (R4DS) by Grolemund & Wickham
-  - [R4DS Exercise Solutions](https://jrnold.github.io/r4ds-exercise-solutions/) by Arnold
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr/) by Grolemund
 -	[Advanced R](https://adv-r.hadley.nz/) by Wickham
 -	[ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) by Wickham et al.
 -	[Many other free texts](https://www.rstudio.com/resources/books/) provided by RStudio
+- I know of many, many additional resources. Let me know what you are interested and I will share!
 
 To use the course tools, you will need to have access to:
 
 -	A laptop or tablet device.
 -	A modern web browser. [Google Chrome](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en) or [Microsoft Edge](https://www.microsoft.com/en-us/edge?form=MA13DE&OCID=MA13DE) are preferred, though [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) should also work.
 -	Reliable access to high-speed internet.
--	If we need to pivot our course delivery method throughout this semester, I also recommend that you have access to a webcam and wired headphones.
+-	I also recommend that you have access to a webcam and wired headphones.
   This will help to increase active participation and engagement in remote class sessions.
 
 If you have any issue with accessing the above for whatever reason, let me know as soon as possible.
 I may know of resources that can help you for your case.
-Additionally, we will use Blackboard and R via GVSU's RStudio Server.
+
+We will use a combination of Blackboard, Microsoft Teams, GitHub, and GVSU's RStudio Workbench for announcements, due dates, and class materials.
+Be sure to check these spaces at least daily.
 
 ## Course Objectives
 
-In this course, we will:
+After successful completion of the course, you will be able to:
 
 - Import, manage, and clean data.
 - Create graphical displays and numerical summaries of data for exploratory analysis and presentations.
@@ -91,63 +98,96 @@ In this course, we will:
 
 ## The work of this course
 
-This course will be as much about breaking stuff as it is about building stuff. 
+This course is about using R to do stuff.
+Some of you have little to no programming experience, while others are very proficient coders.
+I will provide you with a recommended path based on the course objectives, but I am happy to work with you so that we can design this course to better suite your personal learning goals.
+
+We will make a lot of mistakes through out the semester.
+Mistakes provide us with an opportunity to reflect on our current understanding, make adjustments, and update our knowledge.
+Make your mistakes *loudly*.
+That is, seek help or clarification during our class meetings and in our online communication platform.
 
 ### Participation
 
-This is a collaborative course and will be a cooperative learning experience, a true intellectual community.
-For us to work together as a community, we all must find ways to be present in the various places that our course lives (e.g., in person, online communication, the rest of the web).
-If you cannot finish your work for any reason, chat with me in advance.
-Note that on the first day of class, we will decide on a method for managing and participating in backchannel conversations (conversations that do not occur face-to-face).
+My hope is that this will be a collaborative and cooperative learning experience -- a learning community.
+For us to work together as a community, we all must find ways to be present in the various places that our course lives (e.g., during our class meetings or in our online communication).
+If you cannot finish your work for any reason, you get stuck, or you do not know where to begin, chat with me (in advance).
 
 ### Activities
 
 The Weekly Content area in our Blackboard course site will walk you through the various activities of the week.
-These will include readings, videos, suggested practice exercises, workshops, and self-reflections.
+These will include readings, videos, suggested practice activities, and self-reflections.
 
 ### Major Project
 
 Throughout the semester, you will work on a single statistical computing project (on your own or in a group).
 We will determine the parameters of this project together early in the semester.
 
+### Portfolio
+
+A portfolio is a collection of work that provides information about the person doing the work.
+Artists and architects have portfolios that show the range and scope of what they do.
+By looking at their portfolios, you get a sense of who this person is, how they have grown as a professional, what they have produced, and what they are capable of producing.
+
+This is the intention behind your STA 418/518 Portfolio: you will give a curated collection of your work along with responses to some prompts that tell the story of your growth from the first day of class all the way to the end.
+Your goal is to argue, convincingly with concrete evidence, how you have met the criteria for the course objectives and class engagement.
+Your portfolio will have three due dates:
+
+- **Thursday, June 24 at 11:59 pm**: This is a midterm check-in point. While we will not have covered all of the content of the course yet, you will have plenty to reflect on in your Portfolio. The week of June 27, I will check-in individually with each student to discuss your submission.
+- **Thursday, July 21 at 11:59 pm**: Think of this as an opportunity for feedback before your final Portfolio submission. The week of July 25, I will check-in individually with each student that made a submission.
+- **Wednesday, August 10 at 11:59 pm**
+
 ### Course Grading
 
-While you will be receiving a grade at the end of the semester, I will not be putting grades on individual assignments, but rather questions and comments that truly engage with your work rather than simply evaluate it.
-Throughout the semester, you will also be responding to your own work and each other’s work in a similar fashion.
+While you will be receiving a grade at the end of the semester, I will not be putting grades on individual assignments.
+Rather, I will ask questions and provide comments to engage with your work rather than simply evaluate it.
+Throughout the semester, you will also be responding to your work and the work of your peers in a similar fashion.
 The intention here is to help you focus on working in a more organic way, as opposed to working as you think you are expected to.
 I hope that this process will give you (and me) a partial liberation from letter grades, but if it ends up causing more anxiety than it alleviates, feel free to see me at any point to confer about your performance in the course to date.
 If you are worried about your grade in the class, your best strategy should be to attend class, take part in discussions, do the readings, and complete all activities.
+
 ## Technology
 
 ### Blackboard
 
-All assignments, documents, and feedback will be posted on the [Blackboard](https://mybb.gvsu.edu/) course site.
+All assignments, documents, and feedback will be posted on the [Blackboard](https://lms.gvsu.edu/) course site.
 You will also use this for submitting assignments.
 
-The calendar in Blackboard will be used for all important time-sensitive information.
+The calendar in Blackboard will be used for all important time-sensitive information (e.g., Portfolio submissions).
 This calendar will be kept up to date to the best of my ability.
 If you notice any conflicts in times or dates, please let me know so that I can correct them.
 
 ### R/R Studio
 
-We will access R/RStudio through GVSU’s RStudio Server.
-Directions for how to log in to this server will be provided in an early activity.
+We will access R/RStudio through GVSU’s RStudio Workbench.
+A link to this tool is provided at the top of this syllabus as well as on Blackboard.
+You can access the RStudio Workbench by using your GVSU credentials.
+
 [R](https://cloud.r-project.org/) and [RStudio](https://www.rstudio.com/products/rstudio/download/) are freely available applications.
-You may choose to install these applications on your personal machine and I would encourage you to follow the guide by Jenny Bryan et al.: [Happy Git and GitHub for the useR](https://happygitwithr.com/).
+You may choose to install these applications on your personal machine.
+If you choose to do this (it is not required), I would encourage you to follow the guide by Jenny Bryan et al.: [Happy Git and GitHub for the useR](https://happygitwithr.com/).
 
 ### GitHub
 
-We will be using [GitHub](https://github.com/) extensively throughout this course for creating documents, completing assignments, discussions, and collaboration.
-GVSU’s RStudio Server will also provide us with access to [Git](https://git-scm.com/) (a way to communicate between RStudio and GitHub).
+We will be using [GitHub](https://github.com/) extensively throughout this course for creating documents, completing activities, and collaboration.
+GVSU’s RStudio Workbench will also provide us with access to [Git](https://git-scm.com/) (a way to communicate between RStudio and GitHub).
 
-You may choose to install Git on your personal machine and I would again point you to the Happy Git guide from Bryan et al.
+You may choose to install Git on your personal machine (not required) and I would again point you to the Happy Git guide from Bryan et al.
 
 ### Microsoft Teams
 
 Microsoft Teams is communication platform that allows us to share documents, seek feedback, ask questions, and provide support.
 There are web-based apps, computer apps, and phone apps to seamlessly use this tool across multiple platforms.
-We will spend time during the first week of the semester practicing how to use this tool.
+A link to our Teams space is provided in Blackboard.
+
+We will spend time during the first few weeks of the semester practicing how to use this tool.
 You already have an account for this tool through your GVSU credentials.
+
+By taking a course with me, you are now a part of my learning and scholarship lab that I am calling `data-comm` (i.e., the Data Community lab).
+When you join this space you should see two channels: **General** and **SS2022 STA 418-518 S01**.
+Anything you type in the General channel will be viewable by all `data-comm` members - those in our course and those not in our course.
+The SS2022 STA 418-518 S01 channel is a place for conversations specifically about our course.
+We can create additional channels as needed; this is our space.
 
 ## Getting Help
 
@@ -258,24 +298,8 @@ Of the utmost importance is taking care of your own physical and mental health d
 Make sure you are getting sufficient rest, staying connected to friends and family, and giving yourself time and space to do things you enjoy outside of college.
 The Mayo Clinic [provides several tips](https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/self-care-tips-during-the-covid-19-pandemic) for maintaining good self-care in our situation.
 
-While we will not be coming to campus for STA 418/518, you are still implored to perform a self-evaluation each day and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home. If you have a class that meets on campus, you should be on campus only if you feel completely healthy.
-
-### Contingency plans for the semester
-
-We will begin the semester in traditional face-to-face format, but several things could happen during the semester that might alter this setup.
-Here are the initial plans for the most likely of those things.
-
-- If I cannot be on campus due to self-quarantine, but not because of illness:
-  For example, if my partner becomes sick or if my daily self-assessment directs me to stay at home.
-  In this case, we will switch to synchronous online meetings and an asynchronous option might be introduced.
-- If I cannot be on campus due to having a Covid-19 infection:
-  The entire course will be moved to an asynchronous online format until I am well enough to resume my responsibilities.
-  A substitute instructor may be appointed to provide feedback.
-
-In either of these two cases, you can expect a slowdown in the feedback process and substantial changes to the course calendar or syllabus.
-Please monitor your course announcements daily to ensure you have correct information.
-Note that these plans may be changed or overridden by university-wide directives as the semester unfolds.
-Again, the course announcements will be where I post any information.
+While we will not be coming to campus for STA 418/518, you are still implored to perform a self-evaluation each day and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home.
+If you have a class that meets on campus, you should be on campus only if you feel completely healthy.
 
 ## GVSU Policies
 
