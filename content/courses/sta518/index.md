@@ -133,7 +133,7 @@ This is the intention behind your STA 418/518 Portfolio: you will give a curated
 Your goal is to argue, convincingly with concrete evidence, how you have met the criteria for the course objectives and class engagement.
 Your portfolio will have three due dates:
 
-- **Thursday, June 24 at 11:59 pm**: This is a midterm check-in point. While we will not have covered all of the content of the course yet, you will have plenty to reflect on in your Portfolio. The week of June 27, I will check-in individually with each student to discuss your submission.
+- **Thursday, June 23 at 11:59 pm**: This is a midterm check-in point. While we will not have covered all of the content of the course yet, you will have plenty to reflect on in your Portfolio. The week of June 27, I will check-in individually with each student to discuss your submission.
 - **Thursday, July 21 at 11:59 pm**: Think of this as an opportunity for feedback before your final Portfolio submission. The week of July 25, I will check-in individually with each student that made a submission.
 - **Wednesday, August 10 at 11:59 pm**
 
