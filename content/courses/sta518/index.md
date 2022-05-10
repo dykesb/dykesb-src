@@ -11,7 +11,7 @@ links:
 - icon: chalkboard
   icon_pack: fas
   name: Blackboard
-  url: https://mybb.gvsu.edu/
+  url: https://lms.gvsu.edu/
 - icon: r-project
   icon_pack: fab
   name: RStudio Workbench
