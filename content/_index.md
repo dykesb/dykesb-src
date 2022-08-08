@@ -8,7 +8,7 @@ images:
 - img/bradford.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Assistant Professor of Statistics @ GVSU
+subtitle: Associate Professor of Statistics @ GVSU
 text_align_left: true
 title: Bradford Dykes
 type: home
