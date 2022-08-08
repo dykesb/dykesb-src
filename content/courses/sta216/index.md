@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2022-08-29"
+date: "2022-08-07"
 draft: false
 excerpt: Intermediate Applied Statistics
 featured: true
