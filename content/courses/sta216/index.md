@@ -55,7 +55,15 @@ STA 215 or STA 312
 
 ## Required Resources
 
-**WHAT**
+There is no required text for this course. The text that I used in the past is [STAT2: Modeling with Regression and ANOVA](https://www.macmillanlearning.com/college/us/product/STAT2/p/1319054072) by Cannon et. al and is a good resource, but pricing is becoming a bit much. I am looking into using [Statistical Modeling: A Fresh Approach](https://dtkaplan.github.io/SM2-bookdown/) by Kaplan but am not prepared to fully switch to this by the start of Fall 2022. I will do my best to align readings from both books with our agenda, but will also provide fairly complete preparation videos.
+
+Also, to use the course tools, you will need to have access to:
+
+-	A laptop or tablet device.
+-	A modern web browser. Google Chrome or Microsoft Edge are preferred, though Mozilla Firefox should also work.
+-	Reliable access to high-speed internet.
+-	If we need to pivot our course delivery method throughout this semester, I also ask that you have access to a webcam and wired headphones. 
+
 
 ## Course Objectives
 
@@ -75,7 +83,6 @@ This course will be as much about breaking stuff as it is about building stuff.
 This is a collaborative course and will be a cooperative learning experience, a true intellectual community.
 For us to work together as a community, we all must find ways to be present in the various places that our course lives (e.g., in person, online communication, the rest of the web).
 If you cannot finish your work for any reason, chat with me in advance.
-Note that on the first day of class, we will decide on a method for managing and participating in backchannel conversations (conversations that do not occur face-to-face).
 
 ### Activities
 
@@ -86,6 +93,7 @@ These will include readings, videos, suggested practice exercises, workshops, an
 
 Throughout the semester, you will work on a single statistical project (on your own or in a group).
 We will determine the parameters of this project together early in the semester.
+There will also be two options for how you complete this project: 1) creating your own or 2) participating in the American Statistical Association’s [Fall Data Challenge](https://thisisstatistics.org/falldatachallenge/).
 
 ### Course Grading
 
