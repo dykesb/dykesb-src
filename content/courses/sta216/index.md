@@ -120,7 +120,7 @@ Modern statistics and data science uses tools to analyze datasets that may conta
 To do even the simplest calculations by hand (e.g., the sum) is impractical.
 Therefore, to learn statistics, you must learn the basics of a statistical software program.
 In this section of STA 216, we will use the SAS statistical programming language to automate calculations and create graphs.
-I will not ask you to do anything that we have not seen an example of and I will provide you with a document on Blackboard that includes instructions on how to use R for the tasks that we perform.
+I will not ask you to do anything that we have not seen an example of and I will provide you with a document on Blackboard that includes instructions on how to use SAS for the tasks that we perform.
 You will also use SAS or interpret output from SAS on course activities.
 
 We will access SAS through their SAS OnDemand for Academics program which provides free access to their software in the cloud.
