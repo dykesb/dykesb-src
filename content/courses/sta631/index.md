@@ -214,7 +214,8 @@ If you are comfortable doing so, please speak with me about your circumstances s
 
 #### Gender expression and identity
 
-If your state issued identification does not match your preferred name, your name can be updated in some areas (such as Blackboard, mailroom, and your GVSU ID). At GVSU, this is called “myName” and you can request a myName by following these steps:
+If your state issued identification does not match your preferred name, your name can be updated in some areas (such as Blackboard, mailroom, and your GVSU ID).
+At GVSU, this is called “myName” and you can request a myName by following these steps:
 
 1. Login to myBanner, select the Personal Information tab, then select My Profile.
 2. You will be directed to another authentication page where you will be prompted to enter your network credentials.
@@ -258,4 +259,4 @@ If this is to happen, I will let you know as early as possible and provide you w
 
 ## Attributions
 
-Portions of this syllabus have been adapted from the syllabi of Drs. Robert Talbert, John Gabrosek, Neal Rogness (GVSU), Dr. Shawn Graham (Carleton University), Jesse Stommel (University of Denver), Dr. Clara Vaz Bauler (Adelphi University), and several others that I have forgotten.
+Portions of this syllabus have been adapted from the syllabi of Dr. Robert Talbert, Dr. John Gabrosek, and Dr. Neal Rogness (all from GVSU); Dr. Shawn Graham (Carleton University); Dr. Jesse Stommel (University of Denver); Dr. Clara Vaz Bauler (Adelphi University); and several others that I have forgotten.
