@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2022-12-20"
+date: `r Sys.Date()`
 draft: false
 excerpt: Statistical Modeling and Regression
 featured: true
@@ -32,18 +32,14 @@ Throughout this semester, we will discover and question what we do, together.
 
 ## Drop-in Hours
 
-Since we will be doing a lot of active work during our class sessions, our in-person class meetings on Tuesday and Thursday, 4 – 5:15 pm will be the best place to seek direct assistance/feedback on course topics.
+Since we will be doing a lot of active work during our class sessions, our in-person class meetings on Monday and Wednesday, 6:00--7:50 pm will be the best place to seek direct assistance/feedback on course topics.
 It might be helpful to think of our class sessions as in-class “office hours”.
-
-I will also hold drop-in hours directly after our class meetings throughout Winter 2023: Tuesday and Thursday, 5:15 – 6 pm (location TBD).
-These times are for you, and you will not be interrupting me.
-Feel free to talk about something *off topic*, or if you are not exactly sure what you want to touch base about.
 
 ## Class Time
 
-**Meetings**: Tuesday and Thursday; 4:00--5:15pm.
+**Meetings**: Monday and Wednesday, 6:00--7:50 pm
 
-**Location**: DeVos Center 211A (Pew Campus)
+**Location**: SCB 2001 (Pew Campus)
 
 ### When Life Intervenes
 
