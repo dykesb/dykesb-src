@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: `r Sys.Date()`
+date: "2023-05-05"
 draft: false
 excerpt: Statistical Modeling and Regression
 featured: true
