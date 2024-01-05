@@ -2,7 +2,7 @@
 author: Bradford Dykes
 categories:
 - courses
-date: "2023-05-05"
+date: "2024-01-05"
 draft: false
 excerpt: Statistical Modeling and Regression
 featured: true
@@ -14,7 +14,7 @@ links:
   url: https://lms.gvsu.edu/
 - icon: r-project
   icon_pack: fab
-  name: RStudio Workbench
+  name: posit Workbench
   url: https://rstudio.gvsu.edu/
 - icon: github
   icon_pack: fab
@@ -30,16 +30,18 @@ Nothing in this syllabus is set in stone.
 This is not designed to be a map or a contract, but rather a starting place with the goal of transforming the syllabus (and our learning) as we go.
 Throughout this semester, we will discover and question what we do, together.
 
-## Drop-in Hours
+## Student Hours
 
-Since we will be doing a lot of active work during our class sessions, our in-person class meetings on Monday and Wednesday, 6:00--7:50 pm will be the best place to seek direct assistance/feedback on course topics.
+Since we will be doing a lot of active work during our class sessions, our in-person class meetings will be the best place to seek direct assistance/feedback on course topics.
 It might be helpful to think of our class sessions as in-class “office hours”.
+There is also a link provided in Blackboard for you to view my availability and schedule an in-person or virtual time to connect.
 
 ## Class Time
 
-**Meetings**: Monday and Wednesday, 6:00--7:50 pm
-
-**Location**: SCB 2001 (Pew Campus)
+| **Section** | **Days**               | **Time**       | **Location** |
+|-------------|------------------------|----------------|--------------|
+| S01         | Tuesdays and Thursdays | 2:30 - 3:45 pm | DEV 204A     |
+| S02         | Tuesdays and Thursdays | 4:00 - 5:15 pm | DEV 205A     |
 
 ### When Life Intervenes
 
@@ -64,8 +66,7 @@ Traditional and modern computationally-intensive statistical modeling techniques
 Basics of probability theory, including conditional probability, Bayes' Theorem, and univariate probability models.
 Regression modeling and prediction including simple linear, multiple, logistic, Poisson, nonlinear and nonparametric regression.
 Methods for model selection and shrinkage.
-mphasis is on application and interpretation using statistical software.
-
+Emphasis is on application and interpretation using statistical software.
 
 ### Prerequisite
 
@@ -76,9 +77,7 @@ Admission into the data science and analytics professional science master's prog
 -	[An Introduction to Statistical Learning with Applications in R](https://www.statlearning.com/) (ISL), Second Edition, by James, Witten, Hastie, and Tibshirani. See [ISL Exercise Solutions](https://github.com/asadoughi/stat-learning) by Sadoughi et al. for solutions to end of chapter exercises if you choose to complete these.
 -	[Data Feminism](https://data-feminism.mitpress.mit.edu/) (DF), by D’Ignazio and Klein.
 
-We will also use the R programming language (via GVSU’s RStudio Workbench), GitHub, Microsoft Teams, and Blackboard Ultra.
-At the time of creating this syllabus, all students enrolled have completed STA 418/518 at GVSU.
-I will check this again prior to the start of Winter 2023, but I plan to assume that you have experience accessing GVSU’s RStudio Workbench, creating and working in RStudio projects, uploading data files to the RStudio Workbench, and basic R usage.
+We will also use the R programming language (via GVSU’s posit Workbench), GitHub, Microsoft Teams, and Blackboard Ultra.
 I will not assume that you have experience using GitHub, Microsoft Teams, or Blackboard Ultra.
 
 To use the course tools, you will need to have access to:
@@ -131,19 +130,23 @@ We will decide how we will share our learning with one another after the midpoin
 ### Course Grading
 
 This course will focus on qualitative, not quantitative, assessment.
-I will not be grading individual assignments. Rather, I will ask questions and make comments that engage with your work rather than simply evaluate it.
+I will not be grading individual assignments.
+Rather, I will ask questions and make comments that engage with your work rather than simply evaluate it.
 The intention is to help you focus on working in a more organic way, as opposed to working as you think that you are expected to.
 If this process causes more anxiety than it alleviates, connect with me at any point to discuss your work in the course.
 If a task does not feel productive, we can find ways to modify, remix, or repurpose the instructions.
 
-Everyone who participates in the course community and completes their self-reflections/portfolio will get an ‘A’.
+Everyone who participates in the course community and completes their self-reflections/portfolio will earn an ‘A’.
 Instead of your grade, here is what I would like you to focus on:
 
 -	Actively engage in the work of the course.
   There will be lots of different ways for each of us to engage in this course and I will provide a lot of opportunities to check your understanding towards the course [Learning Objectives](#course-objectives).
--	Determine what your participation looks like, i.e., wherever you can best contribute to our community and learn. There are many opportunities to communicate in this course – during class sessions, outside of class sessions, synchronously, asynchronously, on Teams, in our physical classroom.
--	Data science, computing, statistics are not an independent exercise and I encourage you to focus a good amount of your energy on helping your peers, reviewing their work, championing their accomplishments, and offering feedback that pushes them in their own work. Listening and reflecting can be as important as speaking and questioning. 
--	Reflecting on your own work. I believe that college/learning is about the process, not the product. So, writing about your learning is the most important work that we will do this semester.
+-	Determine what your participation looks like, i.e., wherever you can best contribute to our community and learn.
+  There are many opportunities to communicate in this course – during class sessions, outside of class sessions, synchronously, asynchronously, on Teams, in our physical classroom.
+-	Data science, computing, statistics are not an independent exercise and I encourage you to focus a good amount of your energy on helping your peers, reviewing their work, championing their accomplishments, and offering feedback that pushes them in their own work.
+  Listening and reflecting can be as important as speaking and questioning. 
+-	Reflecting on your own work. I believe that college/learning is about the process, not the product.
+  So, writing about your learning is the most important work that we will do this semester.
 
 ## Technology
 
@@ -174,8 +177,6 @@ You already have an account for this tool through your GVSU credentials.
 
 Nearly all course materials will be linked to on our [Blackboard](https://lms.gvsu.edu/) course site.
 You will also use this for submitting assignments and all due dates will be visible in your Blackboard calendar.
-I have volunteered to serve as an early adopter to GVSU’s updated learning management system: Blackboard Ultra.
-For you, this means that our STA 631 Blackboard course site will likely look and be organized differently from your other courses.
 I will provide a brief overview of the important features in my Welcome video.
 
 ## GVSU Policies
