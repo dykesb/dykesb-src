@@ -40,8 +40,8 @@ There is also a link provided in Blackboard for you to view my availability and 
 
 | **Section** | **Days**               | **Time**       | **Location** |
 |-------------|------------------------|----------------|--------------|
-| S01         | Tuesdays and Thursdays | 2:30 - 3:45 pm | DEV 204A     |
-| S02         | Tuesdays and Thursdays | 4:00 - 5:15 pm | DEV 205A     |
+| S01         | Tuesdays and Thursdays | 4:00 - 5:15 pm | DEV 205A     |
+| S02         | Tuesdays and Thursdays | 2:30 - 3:45 pm | DEV 204A     |
 
 ### When Life Intervenes
 
